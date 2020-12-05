@@ -1,0 +1,33 @@
+.navbar{
+  height: 60px;
+  margin-bottom: 2%;
+  background-color: #ffffff;
+  box-shadow: black;
+  width: 100%;
+  overflow: hidden;
+  position: initial;;
+  top: 0; 
+}
+.logo{
+  display: flex;
+  margin-left: -120px;
+    margin-top: 0%;
+}
+.ham{
+  margin-bottom: 10%;
+  margin-left: 24px;
+}
+.input{
+  display: flex;
+  border: 0px solid;
+  border-color: none;
+  margin-right: 350px;
+  width: 50%;
+  height: 47px;
+  border-radius: 7px;
+  margin-top: 2px;
+  background-color: #f1f3f4;
+}
+.all{
+  margin-bottom: 5px;
+}

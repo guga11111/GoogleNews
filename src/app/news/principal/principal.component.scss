@@ -1,0 +1,36 @@
+.first{
+  margin-top: 1%;
+  width: 716px;
+  border-width: 2px;
+  border-radius: 10px;
+}
+.img{
+  float: right;
+  margin-top: -35px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.principal{
+  display: flex;
+  justify-content: center;
+}
+.point{
+  display: flex;
+}
+.title{
+  margin-bottom: -1.5%;
+  margin-left: 26.7%;
+}
+.title2{
+  margin-top: -5%;
+  margin-left: 65%;
+}
+.button{
+  background-color: bisque;
+  border-radius: 15px;
+  font-family:  sans-serif;
+  font-size: 20px;
+  border: 0px solid;
+  margin-left: 5px;
+}

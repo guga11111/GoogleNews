@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "salle-app-55974": {
+      "hosting": {
+        "GoogleNoticias": [
+          "salle-app-55974"
+        ]
+      }
+    }
+  }
+}

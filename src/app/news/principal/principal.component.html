@@ -1,0 +1,21 @@
+
+ <div>
+ <h5 class="title">Titulares</h5>
+  <a class="title2" routerLink="/news/new" >
+    Agregar nuevo
+</a>
+<div *ngFor="let new of News; index as index;" class="principal"  >
+<div class="card  first">
+  <div class="card-body">
+    <h5 class="card-title">{{new.notice}}</h5>
+    <img class="img" src="{{new.profilePicture}}" alt="">
+    <div class="point">
+      *
+    <h6>{{new.subtitle}}</h6>
+    </div>
+    <button class="button" (click)="onDelete(new)"> Eliminar </button>
+    <button class="button"  routerLink="/news/new/{{new._id}}"   > Actualizar </button>
+  </div>
+</div>
+</div>
+</div>

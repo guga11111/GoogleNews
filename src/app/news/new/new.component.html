@@ -1,0 +1,26 @@
+<div [formGroup]="form">
+
+    <div class="form-group" style="border-radius: 50%; display: flex; flex-direction: column; align-items: center; border-radius: 45px;">
+        <img 
+            [src]="img" 
+            alt=""
+            class="img"
+            width="150px" height="150px">
+            <input class="btn btn-primary" type="file" (change)="onChange($event)"> 
+    </div>
+
+    <div class="form-group">
+        <label >Titulo</label>
+        <input formControlName="notice"  class="form-control" id="notice" aria-describedby="notice"placeholder="Noticia">
+    </div>
+    <div class="form-group">
+        <label >Contenido</label>
+        <input formControlName="subtitle" class="form-control" id="subtitle"  aria-describedby="subtitle" placeholder="Contenido">
+        
+    </div>
+    
+    <button *ngIf="this.isNew; else NewsUpdate;" (click)="onAdd()" type="submit" class="btn btn-primary"> Agregar </button>
+    <ng-template #NewsUpdate>
+        <button (click)="onUpdate()" type="submit" class="btn btn-primary"> Actualizar </button>
+    </ng-template>
+</div>
